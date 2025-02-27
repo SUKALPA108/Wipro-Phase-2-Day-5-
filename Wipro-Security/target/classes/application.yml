@@ -1,0 +1,13 @@
+server:
+  port: 3310
+spring:
+  application:
+    name: Wipro-Security
+  datasource:
+    url: jdbc:mysql://localhost:3305/securityproject
+    username: root
+    password: Omkareshwar108#
+  jpa:
+    hibernate:
+      ddl auto: update
+      show-sql: true
